@@ -7737,3 +7737,10 @@ where revenue_monthly_total_amount is null
 2023-03-04 18:57:43.357298 (Thread-83): handling status request
 2023-03-04 18:57:43.357785 (Thread-83): 18:57:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '512561f4-1e2f-449d-9092-6dc18ca0782b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1326af1460>]}
 2023-03-04 18:57:43.358279 (Thread-83): sending response (<Response 1606 bytes [200 OK]>) to 10.0.136.241
+2023-03-04 18:58:07.620195 (Thread-84): 18:58:07  checksum: 7b778d4401d8fe1939bcd297a05b05ed510a473b001077e1a115f129c3c0c0a7, vars: {}, profile: user, target: None, version: 1.4.4
+2023-03-04 18:58:07.737452 (Thread-84): 18:58:07  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-03-04 18:58:07.737699 (Thread-84): 18:58:07  Partial parsing enabled, no changes found, skipping parsing
+2023-03-04 18:58:07.743871 (Thread-84): 18:58:07  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '512561f4-1e2f-449d-9092-6dc18ca0782b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13268a6e20>]}
+2023-03-04 18:58:08.285666 (Thread-85): handling status request
+2023-03-04 18:58:08.286167 (Thread-85): 18:58:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '512561f4-1e2f-449d-9092-6dc18ca0782b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f134bbfdb50>]}
+2023-03-04 18:58:08.286640 (Thread-85): sending response (<Response 1606 bytes [200 OK]>) to 10.0.136.241
